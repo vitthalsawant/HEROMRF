@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1639px) {
+	.container {max-width: 1366px; width: 100%;}
+	h1.large-heading {font-size: 5.75rem;}
+	h1.large-heading span{font-size: 4.725rem;}
+	.top-sub-heading {font-size: 2.725rem;}
+	.scroll-to{right: calc((100% - 1335px) / 2);}
+	.placeholder-text{font-size: 5rem;}
+	.roadmap .left-right > div{transform: translateX(-12%);}
+}
+@media only screen and (max-width: 1400px) {
+	.main-container > section{padding:50px 0px;}
+	.container {max-width: 1280px; width: 100%;}
+	.scroll-to{right: calc((100% - 1250px) / 2);}
+	h2.large-heading{font-size: 4rem;}
+	h2.large-heading span{font-size: 2rem;}
+	.roadmap .left-right > div{transform: translateX(-15%);}
+	#home .image-wrapper img{max-width:420px;}
+}
+@media only screen and (max-width: 1365px) {
+	.container { max-width: 1170px; width: 100%;}
+	.scroll-to{right: calc((100% - 1140px) / 2);}
+	.small-container{max-width: 1170px;}
+	#home .image-wrapper img{max-width:360px;}
+}
+
+@media only screen and (max-width: 1023px) {
+	.roadmap .left-right > div{transform: translateX(-20%);}
+}
+
+@media only screen and (max-width:767px) {
+	.banafits-section{border:none !important;}
+	.banafits-section .row > div{border:none; border-top:2px solid #eeeeee; }
+	.hero-section .heading-wrapper h2{font-size:1.5rem; line-height:1.2;  }
+	h1,.h1{line-height:1.2 }
+	h2,.h2{line-height:1.2}
+	h3,.h3{line-height:1.2}
+	#home .image-wrapper img{max-width: 270px;}
+	#home h1{margin-bottom:0px;  }
+	.roadmap{height:100px; background-size: auto 110px; }
+	.roadmap .right-left > div img{max-height: 36px;}
+	.roadmap .left-right > div img{max-height: 30px;}
+	.roadmap .bike-logo{top: 11px;}
+	.roadmap .left-right > div{bottom:12px; top: auto;}
+	.roadmap .bike-logo{-webkit-animation: mymove 10s 3s infinite linear; /* Safari 4.0 - 8.0 */   animation: mymove 10s 3s infinite linear;}
+	.roadmap .car-logo.move_active, .roadmap .bus-logo.move_active, .roadmap .bicycle-logo.move_active{-webkit-animation: carmove 10s 1s infinite linear; /* Safari 4.0 - 8.0 */   animation: carmove 10s 1s infinite linear; }
+	.roadmap .left-right > div{transform: translateX(-40%);}
+	.double-top-padding{padding-top:30px;}
+	.double-bottom-padding{padding-bottom:30px;}
+	.height-100{height:calc(100vh - 56px); }
+}
+
+@media only screen and (max-height:400px) {
+	.roadmap{display:none; }
+
+}

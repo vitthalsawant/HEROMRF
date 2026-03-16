@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 03 Mar 2026 14:52:29 at https://wheels.stylox.design/website-theme-template-to-launch-e-bike-styloxdesign.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wheels.stylox.design/website-theme-template-to-launch-e-bike-styloxdesign.html -O1 "C:\Users\vitth\OneDrive\Desktop\project clients\NEW website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:53:04	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/form (from https://wheels.stylox.design/website-theme-template-to-launch-e-bike-styloxdesign.html)
+14:53:04	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/+01(123)4567890 (from https://wheels.stylox.design/website-theme-template-to-launch-e-bike-styloxdesign.html)
+14:53:04	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/script.js (from https://wheels.stylox.design/website-theme-template-to-launch-e-bike-styloxdesign.html)
+14:53:05	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/ (from https://wheels.stylox.design/css/bootstrap.min5.css)
+14:53:05	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/css/owl.video.play.png (from https://wheels.stylox.design/css/owl.carousel.min.css)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/website-theme-template-to-launch-bicycle-styloxdesgin.html (from https://wheels.stylox.design/intro/index.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/intro/css/owl.video.play.png (from https://wheels.stylox.design/intro/css/owl.carousel.min.css)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-11-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-12-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-13-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-14.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-14-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-15.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-15-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-16.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-16-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-17.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-17-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-18.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/images/gallery/image-18-s.jpg (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/+01(123) 456 7890 (from https://wheels.stylox.design/website-theme-template-to-launch-bus-styloxdesign.html)
+14:53:32	Error: 	"Read error when decompressing" (-1) at link https://wheels.stylox.design/audio/carstartgarage.ogg (from https://wheels.stylox.design/website-theme-template-to-launch-racing-car-styloxdesign.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 3 seconds : 260 links scanned, 237 files written (36217555 bytes overall) [35968725 bytes received at 570932 bytes/sec], 431997 bytes transferred using HTTP compression in 31 files, ratio 23%, 32.5 requests per connection
+(22 errors, 0 warnings, 0 messages)

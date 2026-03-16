@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Coupon System – HEROMRF Motors</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Coupon System demo for HEROMRF Motors service & spare parts business – customers, coupons, distribution, redemption, reports.">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/swiper%408/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min5.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap5.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+</head>
+<body>
+    <div id="st-preloader">
+        <div class="st-preloader-wave img-fluid"><img src="images/st-loader.png" alt="preloader"></div>
+    </div>
+
+    <div class="wrapper" id="top">
+        <header class="main-header menu-absolute transparent light-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 logo">
+                        <a href="website-theme-template-to-launch-e-bike-styloxdesign.html" title="HEROMRF Motors - Hero MotoCorp Dealer" class="d-flex align-items-center">
+                            <img class="regular-logo img-fluid" src="images/gallery/Hero_MotoCorp_Logo.svg-removebg-preview.png" alt="HEROMRF Motors - Hero MotoCorp logo">
+                            <img class="sticky-logo img-fluid" src="images/gallery/Hero_MotoCorp_Logo.svg-removebg-preview.png" alt="HEROMRF Motors - Hero MotoCorp logo">
+                        </a>
+                        <div class="menu-icon">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 menu-conainer">
+                        <nav class="site-navigation">
+                            <ul class="main-menu">
+                                <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#about">About</a></li>
+                                <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#feature">Features</a></li>
+                                <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#variation">Variations</a></li>
+                                <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#impact">Impacts</a></li>
+                                <li><a href="coupons.html">Coupons</a></li>
+                                <li class="active"><a href="coupon-system.html">Dashboard</a></li>
+                                <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#contact">Get in Touch</a></li>
+                            </ul>
+                            <ul class="header-social-media">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <section class="coupon-system-topbar">
+                <div class="container">
+                    <div class="coupon-topbar-inner">
+                        <div class="left">
+                            <strong>Coupon Dashboard</strong>
+                            <span class="muted">|</span>
+                            <span id="sessionLabel" class="muted">Checking login…</span>
+                        </div>
+                        <div class="right">
+                            <a class="btn btn-primary btn-accent btn-sm" href="coupons.html">View Public Coupons</a>
+                            <button id="logoutBtn" class="btn btn-primary btn-inverse btn-sm" type="button">Logout</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hero-section style-1 light-text coupon-hero" style="position: relative; background-color: #000; background-image: url(images/env1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <div class="container double-bottom-padding">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-12 bicycle-img wow fadeInLeft">
+                            <div class="coupon-breadcrumb">
+                                <a href="website-theme-template-to-launch-e-bike-styloxdesign.html">Home</a>
+                                <span>/</span>
+                                <span>Coupon System</span>
+                            </div>
+                            <h2 class="top-sub-heading">Coupon System</h2>
+                            <h1 class="large-heading"><span>For Service & Spare Parts</span>HEROMRF Motors</h1>
+                            <div class="text-block text-lead">
+                                <p>
+                                    A clean, dashboard-style coupon system preview: manage customers, create coupons, distribute via SMS/WhatsApp, redeem at service center, and view reports.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12 wow fadeInRight">
+                            <div class="coupon-stats-grid">
+                                <div class="coupon-stat">
+                                    <div class="label">Total Coupons</div>
+                                    <div class="value" data-count="128">0</div>
+                                </div>
+                                <div class="coupon-stat">
+                                    <div class="label">Redeemed</div>
+                                    <div class="value" data-count="54">0</div>
+                                </div>
+                                <div class="coupon-stat">
+                                    <div class="label">Active</div>
+                                    <div class="value" data-count="36">0</div>
+                                </div>
+                                <div class="coupon-stat">
+                                    <div class="label">Expired</div>
+                                    <div class="value" data-count="92">0</div>
+                                </div>
+                                <div class="coupon-stat">
+                                    <div class="label">Customers</div>
+                                    <div class="value" data-count="310">0</div>
+                                </div>
+                                <div class="coupon-stat">
+                                    <div class="label">Today Redemptions</div>
+                                    <div class="value" data-count="7">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="coupon-system-section light-gray-bg" style="padding-top:60px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-12 mb-4">
+                            <div class="coupon-nav">
+                                <button class="coupon-tab active" type="button" data-target="tabDashboard"><i class="fas fa-chart-pie"></i><span>Dashboard</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabCustomers"><i class="fas fa-users"></i><span>Customers</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabCoupons"><i class="fas fa-ticket-alt"></i><span>Coupons</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabDistribution"><i class="fas fa-paper-plane"></i><span>Distribution</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabRedemption"><i class="fas fa-cash-register"></i><span>Redemption</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabReports"><i class="fas fa-file-alt"></i><span>Reports</span></button>
+                                <button class="coupon-tab" type="button" data-target="tabRoles"><i class="fas fa-user-shield"></i><span>User Roles</span></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <div class="coupon-panel">
+                                <div id="tabDashboard" class="coupon-tab-panel active">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Dashboard Overview</h2>
+                                            <p class="mb-0">Quick snapshot of coupon activity. (Demo UI – front-end only.)</p>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card">
+                                                <div class="title">Active Coupons</div>
+                                                <div class="big">36</div>
+                                                <div class="meta"><span class="badge badge-success">Running</span> Valid offers available</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card">
+                                                <div class="title">Total Redeemed</div>
+                                                <div class="big">54</div>
+                                                <div class="meta"><span class="badge badge-primary">This month</span> Service & parts</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card">
+                                                <div class="title">Today</div>
+                                                <div class="big">7</div>
+                                                <div class="meta"><span class="badge badge-warning">Live</span> Redemptions today</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="coupon-card">
+                                                <div class="title mb-2">Featured Coupons (Preview)</div>
+                                                <div class="coupon-grid">
+                                                    <div class="coupon-tile">
+                                                        <div class="save">20% OFF</div>
+                                                        <div class="desc">On Service Labour (Min bill ₹500)</div>
+                                                        <div class="code-row">
+                                                            <code>HERO20</code>
+                                                            <button type="button" class="copy-btn" data-copy="HERO20">Copy</button>
+                                                        </div>
+                                                        <div class="expiry">Valid till: 30 Apr 2026</div>
+                                                    </div>
+                                                    <div class="coupon-tile">
+                                                        <div class="save">₹150 OFF</div>
+                                                        <div class="desc">Genuine Parts (Min bill ₹1000)</div>
+                                                        <div class="code-row">
+                                                            <code>PART150</code>
+                                                            <button type="button" class="copy-btn" data-copy="PART150">Copy</button>
+                                                        </div>
+                                                        <div class="expiry">Valid till: 10 May 2026</div>
+                                                    </div>
+                                                    <div class="coupon-tile">
+                                                        <div class="save">FREE</div>
+                                                        <div class="desc">Basic Check-up with Service</div>
+                                                        <div class="code-row">
+                                                            <code>FREECHECK</code>
+                                                            <button type="button" class="copy-btn" data-copy="FREECHECK">Copy</button>
+                                                        </div>
+                                                        <div class="expiry">Valid till: 31 May 2026</div>
+                                                    </div>
+                                                </div>
+                                                <div id="copyToast" class="copy-toast d-none" role="status" aria-live="polite">Coupon code copied</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabCustomers" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Customer Management</h2>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <form class="coupon-form">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="custName">Customer Name</label>
+                                                        <input id="custName" type="text" class="form-control" placeholder="Enter customer name">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="custMobile">Mobile Number</label>
+                                                        <input id="custMobile" type="tel" class="form-control" placeholder="Enter mobile number">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="custEmail">Email (Optional)</label>
+                                                        <input id="custEmail" type="email" class="form-control" placeholder="Enter email">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="bikeModel">Bike Model</label>
+                                                        <input id="bikeModel" type="text" class="form-control" placeholder="Splendor / HF Deluxe / etc.">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="bikeNumber">Bike Number</label>
+                                                        <input id="bikeNumber" type="text" class="form-control" placeholder="KA-09-XXXX">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="regDate">Registration Date</label>
+                                                        <input id="regDate" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-12 mb-3">
+                                                        <label class="form-label" for="custAddress">Address</label>
+                                                        <textarea id="custAddress" class="form-control" rows="3" placeholder="Enter address"></textarea>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="button" class="btn btn-primary btn-accent">Save Customer</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="coupon-table-wrap">
+                                                <div class="table-responsive">
+                                                    <table class="table coupon-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Customer ID</th>
+                                                                <th>Name</th>
+                                                                <th>Mobile</th>
+                                                                <th>Bike Model</th>
+                                                                <th>Bike Number</th>
+                                                                <th>Coupons Used</th>
+                                                                <th>Registered</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#C1021</td>
+                                                                <td>Ramesh K</td>
+                                                                <td>+91 98xxxxxx12</td>
+                                                                <td>Splendor+</td>
+                                                                <td>KA-09-AA-1234</td>
+                                                                <td>2</td>
+                                                                <td>2026-03-02</td>
+                                                                <td><span class="chip chip-success">Active</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#C1022</td>
+                                                                <td>Divya S</td>
+                                                                <td>+91 97xxxxxx44</td>
+                                                                <td>Destini 125</td>
+                                                                <td>KA-09-BB-7721</td>
+                                                                <td>0</td>
+                                                                <td>2026-03-08</td>
+                                                                <td><span class="chip chip-muted">Inactive</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#C1023</td>
+                                                                <td>Mahesh N</td>
+                                                                <td>+91 99xxxxxx87</td>
+                                                                <td>HF Deluxe</td>
+                                                                <td>KA-09-CC-9811</td>
+                                                                <td>1</td>
+                                                                <td>2026-03-12</td>
+                                                                <td><span class="chip chip-success">Active</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabCoupons" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Coupon Management</h2>
+                                        </div>
+                                        <div class="col-12 mb-4 admin-only d-none" id="adminCreateCoupon">
+                                            <form class="coupon-form" id="adminCouponForm">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="couponTitle">Coupon Title</label>
+                                                        <input id="couponTitle" type="text" class="form-control" placeholder="e.g., 20% Off on Service">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="couponCode">Coupon Code (Auto/Manual)</label>
+                                                        <input id="couponCode" type="text" class="form-control" placeholder="e.g., HERO20">
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label class="form-label" for="couponType">Coupon Type</label>
+                                                        <select id="couponType" class="form-control">
+                                                            <option value="amount">Discount Amount</option>
+                                                            <option value="percent">Discount Percentage</option>
+                                                            <option value="free">Free Service</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label class="form-label" for="discountValue">Discount Value</label>
+                                                        <input id="discountValue" type="number" class="form-control" placeholder="e.g., 150 or 20">
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label class="form-label" for="minPurchase">Minimum Purchase Amount</label>
+                                                        <input id="minPurchase" type="number" class="form-control" placeholder="e.g., 500">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="validFrom">Valid From</label>
+                                                        <input id="validFrom" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="validTill">Valid Till</label>
+                                                        <input id="validTill" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="usageLimit">Maximum Usage Limit</label>
+                                                        <input id="usageLimit" type="number" class="form-control" placeholder="e.g., 100">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="couponStatus">Status</label>
+                                                        <select id="couponStatus" class="form-control">
+                                                            <option value="active">Active</option>
+                                                            <option value="inactive">Inactive</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="submit" class="btn btn-primary btn-accent">Create Coupon</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="adminCouponMsg" class="alert alert-success mt-3 d-none" role="status">Coupon created (demo) and added to Public Coupons.</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="coupon-table-wrap">
+                                                <div class="table-responsive">
+                                                    <table class="table coupon-table" id="couponListTable">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Coupon ID</th>
+                                                                <th>Title</th>
+                                                                <th>Code</th>
+                                                                <th>Type</th>
+                                                                <th>Value</th>
+                                                                <th>Valid Till</th>
+                                                                <th>Usage</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="couponListTbody"></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabDistribution" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Coupon Distribution</h2>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <form class="coupon-form">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="distCustomer">Select Customer</label>
+                                                        <select id="distCustomer" class="form-control">
+                                                            <option>Ramesh K – +91 98xxxxxx12</option>
+                                                            <option>Divya S – +91 97xxxxxx44</option>
+                                                            <option>Mahesh N – +91 99xxxxxx87</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="distCoupon">Select Coupon</label>
+                                                        <select id="distCoupon" class="form-control">
+                                                            <option>HERO20 – 20% off service labour</option>
+                                                            <option>PART150 – ₹150 off parts</option>
+                                                            <option>FREECHECK – free check-up</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label d-block mb-2">Distribution Type</label>
+                                                        <div class="coupon-radio-row">
+                                                            <label class="coupon-radio"><input type="radio" name="distType" checked> Manual</label>
+                                                            <label class="coupon-radio"><input type="radio" name="distType"> SMS</label>
+                                                            <label class="coupon-radio"><input type="radio" name="distType"> WhatsApp</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="distDate">Distribution Date</label>
+                                                        <input id="distDate" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-12 mb-3">
+                                                        <label class="form-label" for="distNotes">Notes</label>
+                                                        <textarea id="distNotes" class="form-control" rows="3" placeholder="Optional note..."></textarea>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="button" class="btn btn-primary btn-accent">Send / Assign</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="coupon-table-wrap">
+                                                <div class="table-responsive">
+                                                    <table class="table coupon-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Distribution ID</th>
+                                                                <th>Customer</th>
+                                                                <th>Mobile</th>
+                                                                <th>Coupon Code</th>
+                                                                <th>Date</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#D4501</td>
+                                                                <td>Ramesh K</td>
+                                                                <td>+91 98xxxxxx12</td>
+                                                                <td><code>HERO20</code></td>
+                                                                <td>2026-03-10</td>
+                                                                <td><span class="chip chip-success">Sent</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#D4502</td>
+                                                                <td>Divya S</td>
+                                                                <td>+91 97xxxxxx44</td>
+                                                                <td><code>PART150</code></td>
+                                                                <td>2026-03-12</td>
+                                                                <td><span class="chip chip-warning">Pending</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabRedemption" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Coupon Redemption (Service Center)</h2>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <form class="coupon-form" id="redeemForm">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdMobile">Customer Mobile Number</label>
+                                                        <input id="rdMobile" type="tel" class="form-control" placeholder="+91 ...">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdCode">Coupon Code</label>
+                                                        <input id="rdCode" type="text" class="form-control" placeholder="HERO20">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdService">Service / Product Name</label>
+                                                        <input id="rdService" type="text" class="form-control" placeholder="General Service / Oil / Parts">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdBill">Bill Amount (₹)</label>
+                                                        <input id="rdBill" type="number" class="form-control" placeholder="e.g., 1200">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdDiscount">Discount Applied (₹)</label>
+                                                        <input id="rdDiscount" type="number" class="form-control" placeholder="e.g., 150">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdFinal">Final Amount (₹)</label>
+                                                        <input id="rdFinal" type="number" class="form-control" readonly>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdDate">Redemption Date</label>
+                                                        <input id="rdDate" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="form-label" for="rdRemarks">Remarks</label>
+                                                        <input id="rdRemarks" type="text" class="form-control" placeholder="Optional remarks">
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="submit" class="btn btn-primary btn-accent">Redeem Coupon</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div id="redeemSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                                                Redemption saved (demo). Final amount calculated.
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="coupon-table-wrap">
+                                                <div class="table-responsive">
+                                                    <table class="table coupon-table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Redemption ID</th>
+                                                                <th>Customer</th>
+                                                                <th>Mobile</th>
+                                                                <th>Coupon</th>
+                                                                <th>Service/Product</th>
+                                                                <th>Discount</th>
+                                                                <th>Final Bill</th>
+                                                                <th>Date</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#R9001</td>
+                                                                <td>Ramesh K</td>
+                                                                <td>+91 98xxxxxx12</td>
+                                                                <td><code>HERO20</code></td>
+                                                                <td>General Service</td>
+                                                                <td>₹200</td>
+                                                                <td>₹1000</td>
+                                                                <td>2026-03-14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>#R9002</td>
+                                                                <td>Mahesh N</td>
+                                                                <td>+91 99xxxxxx87</td>
+                                                                <td><code>PART150</code></td>
+                                                                <td>Brake Pads</td>
+                                                                <td>₹150</td>
+                                                                <td>₹850</td>
+                                                                <td>2026-03-15</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabReports" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">Basic Reports</h2>
+                                        </div>
+                                        <div class="col-12 mb-4">
+                                            <div class="coupon-card">
+                                                <div class="row align-items-end">
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="form-label" for="rpFrom">From Date</label>
+                                                        <input id="rpFrom" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="form-label" for="rpTo">To Date</label>
+                                                        <input id="rpTo" type="date" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="form-label" for="rpCode">Coupon Code</label>
+                                                        <input id="rpCode" type="text" class="form-control" placeholder="HERO20">
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="form-label" for="rpMobile">Customer Mobile</label>
+                                                        <input id="rpMobile" type="tel" class="form-control" placeholder="+91 ...">
+                                                    </div>
+                                                </div>
+                                                <div class="report-tabs mt-2">
+                                                    <button type="button" class="report-tab active" data-report="reportUsage">Coupon Usage</button>
+                                                    <button type="button" class="report-tab" data-report="reportCustomer">Customer Wise</button>
+                                                    <button type="button" class="report-tab" data-report="reportDaily">Daily Redemption</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div id="reportUsage" class="report-panel active">
+                                                <div class="coupon-table-wrap">
+                                                    <div class="table-responsive">
+                                                        <table class="table coupon-table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Coupon Code</th>
+                                                                    <th>Title</th>
+                                                                    <th>Usage Count</th>
+                                                                    <th>Last Used</th>
+                                                                    <th>Status</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><code>HERO20</code></td>
+                                                                    <td>Service Labour Discount</td>
+                                                                    <td>12</td>
+                                                                    <td>2026-03-14</td>
+                                                                    <td><span class="chip chip-success">Active</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><code>PART150</code></td>
+                                                                    <td>Parts Offer</td>
+                                                                    <td>8</td>
+                                                                    <td>2026-03-15</td>
+                                                                    <td><span class="chip chip-success">Active</span></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="reportCustomer" class="report-panel">
+                                                <div class="coupon-table-wrap">
+                                                    <div class="table-responsive">
+                                                        <table class="table coupon-table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Customer</th>
+                                                                    <th>Mobile</th>
+                                                                    <th>Total Used</th>
+                                                                    <th>Most Used Coupon</th>
+                                                                    <th>Last Redemption</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Ramesh K</td>
+                                                                    <td>+91 98xxxxxx12</td>
+                                                                    <td>2</td>
+                                                                    <td><code>HERO20</code></td>
+                                                                    <td>2026-03-14</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mahesh N</td>
+                                                                    <td>+91 99xxxxxx87</td>
+                                                                    <td>1</td>
+                                                                    <td><code>PART150</code></td>
+                                                                    <td>2026-03-15</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="reportDaily" class="report-panel">
+                                                <div class="coupon-table-wrap">
+                                                    <div class="table-responsive">
+                                                        <table class="table coupon-table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Date</th>
+                                                                    <th>Redemptions</th>
+                                                                    <th>Total Discount</th>
+                                                                    <th>Total Final Bill</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>2026-03-14</td>
+                                                                    <td>3</td>
+                                                                    <td>₹520</td>
+                                                                    <td>₹3,680</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2026-03-15</td>
+                                                                    <td>4</td>
+                                                                    <td>₹650</td>
+                                                                    <td>₹4,120</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="tabRoles" class="coupon-tab-panel">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h2 class="coupon-section-title">User Roles</h2>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card role-card">
+                                                <div class="role-title"><i class="fas fa-user-cog"></i> Admin</div>
+                                                <p class="mb-0">Manage coupons, customers, distribution, and reports.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card role-card">
+                                                <div class="role-title"><i class="fas fa-tools"></i> Service Staff</div>
+                                                <p class="mb-0">Redeem coupons at the service center and generate bill entries.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="coupon-card role-card">
+                                                <div class="role-title"><i class="fas fa-user"></i> Customer</div>
+                                                <p class="mb-0">Receives coupons and uses them during service/parts purchase.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-widget-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="widget-heading">
+                                    <h4 class="widget-title">About Us</h4>
+                                </div>
+                                <div class="widget-contet">
+                                    <img src="images/gallery/22fa19ff13dc151410142bdea885073b-removebg-preview.png" class="footer-logo img-fluid" alt="HEROMRF Motors logo">
+                                    <p>
+                                        HEROMRF Motors is a Hero MotoCorp authorized dealership in Krishnarajanagara, Mysore.
+                                        Explore the complete Hero two-wheeler range with genuine parts, finance support and an
+                                        authorized service centre you can trust.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="widget-heading">
+                                    <h4 class="widget-title">Useful Links</h4>
+                                </div>
+                                <div class="widget-contet footer-menu">
+                                    <ul class="menu">
+                                        <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#about">About</a></li>
+                                        <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#feature">Features</a></li>
+                                        <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#variation">Variations</a></li>
+                                        <li><a href="coupons.html">Coupons</a></li>
+                                        <li><a href="website-theme-template-to-launch-e-bike-styloxdesign.html#contact">Get in Touch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="widget-heading">
+                                    <h4 class="widget-title">Contact Info</h4>
+                                </div>
+                                <div class="widget-contet contact-info">
+                                    <div class="widget-contact-info">
+                                        <i class="fas fa-phone"></i>
+                                        <h3>Phone</h3>
+                                        <span><a href="tel:+919916442887">+91 99164 42887</a></span>
+                                    </div>
+                                    <div class="widget-contact-info">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <h3>Email</h3>
+                                        <span><a href="mailto:heromrfmotors@gmail.com">heromrfmotors@gmail.com</a></span>
+                                    </div>
+                                    <div class="widget-contact-info">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <h3>Address</h3>
+                                        <span>MRF Hero, Hunsur Road, K R Nagar,<br />Krishnarajanagara, Mysore, Karnataka – 571602</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="widget-heading">
+                                    <h4 class="widget-title">Follow Us</h4>
+                                </div>
+                                <div class="widget-contet">
+                                    <div class="footer-social">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <div class="container">
+                    <div class="copyright">© 2026 HEROMRF Motors. Design & Developed by <a target="_blank" href="http://stylox.design/">StyloxDesign</a>.</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cascading-select.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/onpagescroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/jquery.min.latest.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
+    <script>
+        (function () {
+            var STORAGE_KEY_COUPONS = 'heromrfCoupons';
+            var STORAGE_KEY_SESSION = 'heromrfSession';
+
+            function seedCouponsIfEmpty() {
+                var existing = localStorage.getItem(STORAGE_KEY_COUPONS);
+                if (existing) return;
+                var seed = [
+                    { id: 'CP801', title: 'Service Labour Discount', code: 'HERO20', type: 'percent', value: 20, minPurchase: 500, validFrom: '2026-03-01', validTill: '2026-04-30', usageLimit: 100, usageCount: 12, status: 'active' },
+                    { id: 'CP802', title: 'Parts Offer', code: 'PART150', type: 'amount', value: 150, minPurchase: 1000, validFrom: '2026-03-01', validTill: '2026-05-10', usageLimit: 100, usageCount: 8, status: 'active' },
+                    { id: 'CP803', title: 'Free Check-up', code: 'FREECHECK', type: 'free', value: 0, minPurchase: 0, validFrom: '2026-03-01', validTill: '2026-05-31', usageLimit: 50, usageCount: 4, status: 'inactive' }
+                ];
+                localStorage.setItem(STORAGE_KEY_COUPONS, JSON.stringify(seed));
+            }
+
+            function getSession() {
+                try { return JSON.parse(localStorage.getItem(STORAGE_KEY_SESSION) || 'null'); } catch (e) { return null; }
+            }
+
+            function requireSession() {
+                var s = getSession();
+                if (!s || !s.role) {
+                    window.location.replace('coupons.html#login');
+                    return null;
+                }
+                return s;
+            }
+
+            function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
+
+            function animateCounts() {
+                var els = document.querySelectorAll('[data-count]');
+                els.forEach(function (el) {
+                    var target = parseInt(el.getAttribute('data-count') || '0', 10);
+                    var start = 0;
+                    var duration = 700;
+                    var startTs = performance.now();
+                    function step(ts) {
+                        var t = clamp((ts - startTs) / duration, 0, 1);
+                        var val = Math.round(start + (target - start) * t);
+                        el.textContent = val;
+                        if (t < 1) requestAnimationFrame(step);
+                    }
+                    requestAnimationFrame(step);
+                });
+            }
+
+            function setupTabs() {
+                var tabs = document.querySelectorAll('.coupon-tab');
+                var panels = document.querySelectorAll('.coupon-tab-panel');
+                tabs.forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        var targetId = btn.getAttribute('data-target');
+                        tabs.forEach(function (b) { b.classList.remove('active'); });
+                        panels.forEach(function (p) { p.classList.remove('active'); });
+                        btn.classList.add('active');
+                        var panel = document.getElementById(targetId);
+                        if (panel) panel.classList.add('active');
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                });
+
+                var reportTabs = document.querySelectorAll('.report-tab');
+                var reportPanels = document.querySelectorAll('.report-panel');
+                reportTabs.forEach(function (btn) {
+                    btn.addEventListener('click', function () {
+                        var id = btn.getAttribute('data-report');
+                        reportTabs.forEach(function (b) { b.classList.remove('active'); });
+                        reportPanels.forEach(function (p) { p.classList.remove('active'); });
+                        btn.classList.add('active');
+                        var panel = document.getElementById(id);
+                        if (panel) panel.classList.add('active');
+                    });
+                });
+            }
+
+            async function copyText(text) {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    return true;
+                } catch (e) {
+                    var ta = document.createElement('textarea');
+                    ta.value = text;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.focus();
+                    ta.select();
+                    var ok = false;
+                    try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+                    document.body.removeChild(ta);
+                    return ok;
+                }
+            }
+
+            function setupCopyButtons() {
+                var toast = document.getElementById('copyToast');
+                var toastTimer = null;
+                function showToast(msg) {
+                    if (!toast) return;
+                    toast.textContent = msg;
+                    toast.classList.remove('d-none');
+                    clearTimeout(toastTimer);
+                    toastTimer = setTimeout(function () { toast.classList.add('d-none'); }, 1600);
+                }
+
+                document.querySelectorAll('.copy-btn').forEach(function (btn) {
+                    btn.addEventListener('click', async function () {
+                        var code = btn.getAttribute('data-copy') || '';
+                        var ok = await copyText(code);
+                        showToast(ok ? 'Coupon code copied' : 'Copy failed');
+                    });
+                });
+            }
+
+            function setupRedemptionCalc() {
+                var bill = document.getElementById('rdBill');
+                var disc = document.getElementById('rdDiscount');
+                var finalEl = document.getElementById('rdFinal');
+                var form = document.getElementById('redeemForm');
+                var success = document.getElementById('redeemSuccess');
+
+                function update() {
+                    var b = parseFloat(bill && bill.value ? bill.value : '0') || 0;
+                    var d = parseFloat(disc && disc.value ? disc.value : '0') || 0;
+                    var f = Math.max(0, b - d);
+                    if (finalEl) finalEl.value = f ? String(f) : '';
+                }
+
+                if (bill) bill.addEventListener('input', update);
+                if (disc) disc.addEventListener('input', update);
+
+                if (form) {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        update();
+                        if (success) success.classList.remove('d-none');
+                        setTimeout(function () { if (success) success.classList.add('d-none'); }, 2200);
+                    });
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                seedCouponsIfEmpty();
+                var session = requireSession();
+                if (!session) return;
+
+                var label = document.getElementById('sessionLabel');
+                if (label) label.textContent = (session.role === 'admin' ? 'Logged in as Admin' : 'Logged in as Service Staff');
+
+                var logoutBtn = document.getElementById('logoutBtn');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function () {
+                        localStorage.removeItem(STORAGE_KEY_SESSION);
+                        window.location.href = 'coupons.html#login';
+                    });
+                }
+
+                // Role gating: only Admin can create coupons
+                var adminBox = document.getElementById('adminCreateCoupon');
+                if (adminBox && session.role === 'admin') adminBox.classList.remove('d-none');
+
+                animateCounts();
+                setupTabs();
+                setupCopyButtons();
+                setupRedemptionCalc();
+
+                // Coupon list rendering from localStorage
+                function loadCoupons() {
+                    try { return JSON.parse(localStorage.getItem(STORAGE_KEY_COUPONS) || '[]'); } catch (e) { return []; }
+                }
+
+                function formatType(t) {
+                    if (t === 'percent') return 'Percentage';
+                    if (t === 'amount') return 'Amount';
+                    if (t === 'free') return 'Free Service';
+                    return t || '';
+                }
+
+                function formatValue(c) {
+                    if (c.type === 'percent') return (c.value || 0) + '%';
+                    if (c.type === 'amount') return '₹' + (c.value || 0);
+                    return '—';
+                }
+
+                function statusChip(status) {
+                    if (status === 'active') return '<span class="chip chip-success">Active</span>';
+                    return '<span class="chip chip-muted">Inactive</span>';
+                }
+
+                function renderCouponTable() {
+                    var tbody = document.getElementById('couponListTbody');
+                    if (!tbody) return;
+                    var coupons = loadCoupons();
+                    tbody.innerHTML = coupons.map(function (c) {
+                        return (
+                            '<tr>' +
+                            '<td>#' + (c.id || '') + '</td>' +
+                            '<td>' + (c.title || '') + '</td>' +
+                            '<td><code>' + (c.code || '') + '</code></td>' +
+                            '<td>' + formatType(c.type) + '</td>' +
+                            '<td>' + formatValue(c) + '</td>' +
+                            '<td>' + (c.validTill || '') + '</td>' +
+                            '<td>' + (c.usageCount || 0) + '</td>' +
+                            '<td>' + statusChip(c.status) + '</td>' +
+                            '</tr>'
+                        );
+                    }).join('');
+                }
+
+                renderCouponTable();
+
+                // Admin create coupon form (stores into localStorage -> visible on public Coupons page)
+                var form = document.getElementById('adminCouponForm');
+                var msg = document.getElementById('adminCouponMsg');
+                if (form && session.role === 'admin') {
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        var coupons = loadCoupons();
+
+                        var title = (document.getElementById('couponTitle') || {}).value || '';
+                        var code = (document.getElementById('couponCode') || {}).value || '';
+                        var type = (document.getElementById('couponType') || {}).value || 'amount';
+                        var value = parseFloat(((document.getElementById('discountValue') || {}).value || '0')) || 0;
+                        var minPurchase = parseFloat(((document.getElementById('minPurchase') || {}).value || '0')) || 0;
+                        var validFrom = (document.getElementById('validFrom') || {}).value || '';
+                        var validTill = (document.getElementById('validTill') || {}).value || '';
+                        var usageLimit = parseInt(((document.getElementById('usageLimit') || {}).value || '0'), 10) || 0;
+                        var status = (document.getElementById('couponStatus') || {}).value || 'active';
+
+                        var nextId = 'CP' + String(800 + coupons.length + 1);
+
+                        coupons.unshift({
+                            id: nextId,
+                            title: title || 'New Coupon',
+                            code: code || ('CODE' + Math.floor(Math.random() * 10000)),
+                            type: type,
+                            value: value,
+                            minPurchase: minPurchase,
+                            validFrom: validFrom,
+                            validTill: validTill,
+                            usageLimit: usageLimit,
+                            usageCount: 0,
+                            status: status
+                        });
+
+                        localStorage.setItem(STORAGE_KEY_COUPONS, JSON.stringify(coupons));
+                        renderCouponTable();
+
+                        if (msg) {
+                            msg.classList.remove('d-none');
+                            setTimeout(function () { msg.classList.add('d-none'); }, 1800);
+                        }
+                        form.reset();
+                    });
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
+
