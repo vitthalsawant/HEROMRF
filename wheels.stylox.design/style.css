@@ -331,6 +331,12 @@ h2.large-heading span{display:block; font-size:2.225rem; color:var(--main-color)
 
 .booknow-section{background:var(--main-color) url('images/bg-4.jpg') no-repeat scroll bottom center; background-size:100% auto;}
 .bicycle-img{bottom: -30px; position: relative; }
+.title-inline-logo{
+  height:42px;
+  width:auto;
+  margin-right:10px;
+  vertical-align:middle;
+}
 .hero-section.style-2 .top-sub-heading{text-transform:uppercase; font-weight:300; }
 .hero-section.style-3 .top-sub-heading{text-transform:uppercase; font-weight:300; font-size: 3.650rem; }
 .video-section:before{height:200px; position:absolute; width:100%; right:calc((100% - 1200px) / 2); top:50%; transform:translateY(-50%); content:""; background:var(--main-color);}
@@ -752,6 +758,13 @@ textarea{resize:none; }
 
 @media (max-width: 767px){
   .coupon-topbar-inner{flex-direction:column; align-items:flex-start;}
+  .coupon-hero{text-align:center;}
+  .coupon-hero .bicycle-img{bottom:0;}
+  .coupon-system-section{padding-top:30px;}
+  .coupon-panel{box-shadow:0 6px 16px rgba(0,0,0,0.08); border-radius:14px; padding:16px;}
+  #publicCouponsGrid{margin-top:10px;}
+  #login .coupon-panel .row > div{margin-bottom:10px;}
+  #login .coupon-form .btn{width:100%; justify-content:center;}
 }
 
 .transparent-field .form-control{background:transparent; }
