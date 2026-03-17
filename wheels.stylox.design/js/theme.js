@@ -14,18 +14,8 @@
     if (typeof WOW == "function")
         new WOW().init();
     /*---------------------------------------------------------------------
-     Mobile Menu
+     Mobile Menu - Handled by custom.js
     ----------------------------------------------------------------------*/
-    if($(window).width() < 991){
-      jQuery('.menu-icon').on("click", function() {
-        jQuery(this).toggleClass('active');
-        jQuery('body').toggleClass('menu-open');
-        jQuery('nav ul li a').on("click", function(){
-          jQuery('.menu-icon').removeClass('active');
-          jQuery('body').removeClass('menu-open');
-        });
-      });
-    }
     /*---------------------------------------------------------------------
       Slider
     ----------------------------------------------------------------------*/

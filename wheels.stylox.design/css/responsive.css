@@ -86,7 +86,7 @@
 	.site-navigation .header-social-media {margin-left:0; width:100%; text-align:left; padding:0px 15px 30px;}
 	.site-navigation .header-social-media li a{line-height:1; color: rgba(255,255,255,0.9);}
 	.light-header.fixed .site-navigation .header-social-media li a{color: rgba(255,255,255,0.9);}
-	.menu-icon {display: block;}
+	.menu-icon {display: block; z-index: 101; cursor: pointer;}
 	.about-text{padding-left:15px; }
 	.about-text::before{display:none;}
 	.offset-y-100{-wenkit-transform: translateY(0px); transform: translateY(0px);}
