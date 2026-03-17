@@ -357,6 +357,55 @@ h2.large-heading span{display:block; font-size:2.225rem; color:var(--main-color)
 .morevideo-slider.owl-carousel .owl-video-play-icon {position: absolute; height: 90px; width: 90px;  left: 50%; top: 50%;  margin-left: -45px;  margin-top: -45px; background: url(images/play-btn.png) no-repeat var(--main-color)center center; cursor: pointer;  z-index: 1; -webkit-backface-visibility: hidden;transition: transform .4s ease;}
 .morevideo-slider{margin-left: -180px;}
 .morevideo-slider.owl-carousel .owl-video-play-icon:hover{transform:none;}
+
+/* Vehicle lineup color switcher */
+.vehicle-lineup-chooser{
+  max-width: 720px;
+}
+.vehicle-lineup-image{
+  text-align:center;
+}
+.vehicle-lineup-image img{
+  max-height: 420px;
+  width: auto;
+  margin: 0 auto;
+}
+.vehicle-color-picker{
+  display:flex;
+  gap: 14px;
+  justify-content:center;
+  align-items:center;
+  margin-top: 18px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 14px;
+  width: fit-content;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+.vehicle-color-swatch{
+  width: 42px;
+  height: 28px;
+  border-radius: 8px;
+  border: 2px solid rgba(0,0,0,0.18);
+  background: #ddd;
+  cursor:pointer;
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+}
+.vehicle-color-swatch:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.18);
+}
+.vehicle-color-swatch.is-active{
+  border-color: rgba(0,0,0,0.85);
+  box-shadow: 0 0 0 3px rgba(227, 27, 35, 0.25);
+}
+.vehicle-color-swatch:nth-child(1){ background: linear-gradient(135deg, #111 0%, #111 55%, #e31b23 55%, #e31b23 100%); }
+.vehicle-color-swatch:nth-child(2){ background: linear-gradient(135deg, #111 0%, #111 55%, #00a3c4 55%, #00a3c4 100%); }
+.vehicle-color-swatch:nth-child(3){ background: #e31b23; }
+.vehicle-color-swatch:nth-child(4){ background: #d9d9d9; }
+.vehicle-color-swatch:nth-child(5){ background: #1e3a8a; }
 .morevideo-slider .owl-stage-outer{ -webkit-box-shadow: 0px 3px 22px 0px rgba(0, 0, 0, 0.73); box-shadow: 0px 3px 22px 0px rgba(0, 0, 0, 0.73); }
 .morevideo-slider .owl-nav{position: absolute; bottom: 0;  left: 100%; width: 120px; margin-left: 30px;}
 

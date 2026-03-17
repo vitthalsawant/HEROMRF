@@ -1,4 +1,27 @@
 (function () {
+  function initVehicleLineup() {
+    var chooser = document.getElementById('vehicleLineupChooser');
+    if (!chooser) return;
+
+    var img = document.getElementById('vehicleLineupImage');
+    if (!img) return;
+
+    chooser.addEventListener('click', function (e) {
+      var btn = e.target.closest('.vehicle-color-swatch');
+      if (!btn) return;
+
+      var src = btn.getAttribute('data-src');
+      if (!src) return;
+
+      img.src = src;
+
+      var buttons = chooser.querySelectorAll('.vehicle-color-swatch');
+      buttons.forEach(function (b) {
+        b.classList.toggle('is-active', b === btn);
+      });
+    });
+  }
+
   function initMenu() {
     var menuIcon = document.querySelector('.menu-icon');
     var body = document.body;
@@ -31,8 +54,12 @@
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMenu);
+    document.addEventListener('DOMContentLoaded', function () {
+      initMenu();
+      initVehicleLineup();
+    });
   } else {
     initMenu();
+    initVehicleLineup();
   }
 })();
