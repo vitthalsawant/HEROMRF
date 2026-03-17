@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <style>
+      .s{stroke:#fff;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+      .a{stroke:#e31b23}
+    </style>
+  </defs>
+  <path class="s" d="M22 34c0-8 4-14 10-14s10 6 10 14"/>
+  <path class="s" d="M18 36h28l-3 10H21l-3-10Z"/>
+  <path class="s a" d="M24 46l-6 6M40 46l6 6"/>
+</svg>
