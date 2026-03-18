@@ -76,6 +76,7 @@
 	.site-navigation .main-menu{width:100%; text-align:left; padding:15px 0px; }
 	.site-navigation .main-menu li{padding:0px; display:block; border-bottom:1px solid rgba(255,255,255,0.3);  }
 	.site-navigation .main-menu li a{line-height: 1.5; padding:10px 15px; color: rgba(255,255,255,0.9); }
+	.site-navigation .main-menu a[href="coupons.html"]{margin-top: 0;}
 	.light-header.fixed .site-navigation .main-menu li a{color: rgba(255,255,255,0.9);}
 	.site-navigation .main-menu > li > a::after{display:none; }
 	.site-navigation .main-menu .sub-menu{position: relative; opacity: 1; top: 100%; visibility: visible; background: rgba(0,0,0,0.1); -webkit-box-shadow: none; box-shadow:none;
@@ -157,6 +158,8 @@
 	table.specifications td, table.specifications th{font-size:16px; }
 	.morevideo-slider .owl-nav{margin-top: 25px; left: 0; margin-left: 0; position: relative;}
 	.main-container > section{padding: 50px 0px;}
+	/* Mobile: ensure Smart Features card doesn't overlap next section */
+	#feature{padding-bottom: 360px !important;}
 	
 	
 	.h1, h1{font-size:2rem }
